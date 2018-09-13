@@ -33,7 +33,7 @@ const Long = require('long');
  ?: boolean
  */
 
-const IS_LITTLE_ENDIAN = require('os').endianness() === 'LE';
+const IS_LITTLE_ENDIAN = true;
 const IS_64bit = process.arch === 'x64';
 
 // Maps consist of: size, alignment, unpack function
